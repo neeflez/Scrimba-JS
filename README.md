@@ -9,7 +9,7 @@ To view the websites from this project, you will need a web browser and access t
 
 No installation is required to view the websites.
 Links:
-https://neeflez.github.io/Conquering-Responsive-Layouts/Scrimba-JS/Scrimba-Passenger-Counter/index.html
+https://neeflez.github.io/Scrimba-JS/Scrimba-Passenger-Counter/index.html
 
 **#License**
 
