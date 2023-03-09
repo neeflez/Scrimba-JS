@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    touch-action: manipulation;
 }
 body{
     background-color: hsl(0, 0%, 10%);
