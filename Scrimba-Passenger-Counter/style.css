@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 10%);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color: hsl(0, 0%, 8%);
+    padding: 2rem;
+    width: 90%;
+    border-radius: 1rem;
+}
+.flex{
+    display: flex;
+}
+.container{
+    max-width: 450px;
+    margin: 0 auto;
+}
+.vert{
+    display: flex;
+    align-items: center;
+    height: 65vh;
+}
+.hero__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:1rem
+}
+button{
+    border: 0;
+    padding: 1em;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+
+.increment{
+    background-color: hsl(221, 66%, 35%);
+}
+.save{
+    background-color: rgb(0, 110, 74);
+}
+h1{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1.5rem;
+}
+@media (min-width: 1000px){
+    :root{
+        font-size: 20px;
+    }
+}
+button:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+button:active {
+  transform: translateY(2px);
+}
