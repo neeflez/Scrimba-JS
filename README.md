@@ -1,0 +1,16 @@
+**#About**
+In this project im trying my best to learn basics of javascript. I will be sharing my progress here.
+
+**#Requirements**
+
+To view the websites from this project, you will need a web browser and access to the Internet.
+
+**#Instructions**
+
+No installation is required to view the websites.
+Links:
+https://neeflez.github.io/Conquering-Responsive-Layouts/Scrimba-JS/Scrimba-Passenger-Counter/index.html
+
+**#License**
+
+This project is available under this link https://scrimba.com/learn/learnjavascript
