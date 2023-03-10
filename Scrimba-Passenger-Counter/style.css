@@ -9,12 +9,14 @@ body{
     padding: 0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    text-shadow: 0em 0.5em 0.5rem hsl(0, 0%, 29%);
 }
 .container{
     background-color: hsl(0, 0%, 8%);
     padding: 2rem;
     width: 90%;
     border-radius: 1rem;
+    box-shadow: 0 0em 1em hsl(0, 0%, 4%);;
 }
 .flex{
     display: flex;
@@ -26,7 +28,7 @@ body{
 .vert{
     display: flex;
     align-items: center;
-    height: 65vh;
+    height: 80vh;
 }
 .hero__main{
     display: flex;
@@ -45,9 +47,11 @@ button{
 
 .increment{
     background-color: hsl(221, 66%, 35%);
+    box-shadow: 0 0.2em 2em hsl(221, 52%, 25%);
 }
 .save{
     background-color: rgb(0, 110, 74);
+    box-shadow: 0 0.2em 2em rgb(2, 66, 45);
 }
 h1{
     font-size: 2.5rem;
