@@ -68,6 +68,7 @@ button{
 }
 button:hover{
     opacity: 0.75;
+    cursor: pointer;
 }
 button:active{
     opacity: 0.5;
@@ -84,7 +85,7 @@ input{
 }
 @media(min-width:700px){
     .hero-top, .hero-bottom{
-    gap: 3rem;
+    gap: 2.5rem;
     padding: 2rem;
 }
 :root{
