@@ -17,27 +17,25 @@
   <body>
     <nav>
       <div class="header container center">
-        <div><a href="index.html">BlackJack</a></div>
-        
+       <div><a href="index.html">BlackJack</a></div> 
       </div>
     </nav>
     <main>
       <div class="container">
         <div id="hero"class="hero">
           <div id="hero-top"class="hero-top">
-            <img src="playing-cards.svg" alt="playing cards" />
             <div class="hero-input">
-              <h2>Enter your name:</h2>
-              <input type="text" />
+              <h2 class="welcome">Welcome</h2>
+              <p>click on card to begin</p>
             </div>
-            <a href="game.html" class="new-game">New Game</a>
-            <button class="rule-btn" onclick="rules()">rules</button>
+            <img onclick="start()"class="gameplay-cards"src="cards.svg" alt="playing cards image">
+            <p>your hand:</p>
+            <div class="hand">
+
+            </div>
           </div>
         </div>
         <div id="hero-bottom">
-          <div id="rules">
-              <p id="rules-p">Blackjack to gra karciana, w której celem jest uzyskanie ręki o wartości jak najbliższej 21 punktów, ale nie przekraczając tej wartości. Gracze rywalizują z krupierem, który również otrzymuje karty. Wygrywa ten, kto ma lepszą rękę, ale nie przekracza 21 punktów.</p>
-            </div>
         </div>
         
       </div>

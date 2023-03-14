@@ -7,3 +7,6 @@ function rules() {
     rules.style.display = "none";
   }
 }
+function start(){
+  
+}
