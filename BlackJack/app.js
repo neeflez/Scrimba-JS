@@ -40,7 +40,6 @@ function pass(){
   cards = [];
   sum = 0;
   document.getElementById("hand").innerText = cards;
-  document.getElementById("hand").innerText = cards;
   document.getElementById("info").innerText = "Keep playing";
   document.getElementById("info").style.color = "#4c4a4a";
 }
