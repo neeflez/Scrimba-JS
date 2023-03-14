@@ -67,6 +67,13 @@ p{
     color: #4c4a4a;
     margin: 1rem;
 }
+#sum{
+    margin: 0;
+    color: rgb(121, 121, 121);
+}
+#hand{
+    color: rgb(223, 223, 223);
+}
 .your-hand{
     margin-bottom: 0;
 }

@@ -18,24 +18,29 @@ function card() {
     sum += cards[i];
   }
   console.log(sum);
-
+  document.getElementById("sum").innerText= sum;
   if (sum === 21) {
     document.getElementById("info").innerText = "You've won!";
     console.log("wygrales");
     cards = [];
     sum = 0;
+    document.getElementById("info").style.color="green";
   } else if (sum > 21) {
     document.getElementById("info").innerText = "You've lost";
+    document.getElementById("info").style.color = "red";
     console.log("przegrales");
     cards = [];
     sum = 0;
   } else {
     document.getElementById("info").innerText = "Keep playing";
+    document.getElementById("info").style.color = "#4c4a4a";
   }
 }
 function pass(){
   cards = [];
   sum = 0;
   document.getElementById("hand").innerText = cards;
+  document.getElementById("hand").innerText = cards;
   document.getElementById("info").innerText = "Keep playing";
+  document.getElementById("info").style.color = "#4c4a4a";
 }
