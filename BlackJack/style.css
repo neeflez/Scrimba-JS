@@ -32,9 +32,19 @@ h1{
     background-color: #1e1e1e;
     margin-top: 5em;
     box-shadow: 0em 0.2em 1em black;
-    
 }
-.hero-top, .hero-bottom{
+#hero-bottom{
+    box-shadow: 0em 0.2em 1em black;
+    display: none;
+    flex-direction: column;
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+#hero-bottom p {
+    font-size: 1.2rem;
+}
+.hero-top{
     display:flex;
     justify-content: center;
     flex-direction: column;

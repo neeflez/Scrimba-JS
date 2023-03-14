@@ -12,6 +12,7 @@
       href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
+     <script src="app.js"></script>
   </head>
   <body>
     <nav>
@@ -29,10 +30,15 @@
               <input type="text" />
             </div>
             <button class="new-game">New Game</button>
-            <button>rules</button>
+            <button onclick="rules()">rules</button>
           </div>
-          <div class="hero-bottom"></div>
         </div>
+        <div id="hero-bottom">
+          <div id="rules">
+              <p id="rules-p">Blackjack to gra karciana, w której celem jest uzyskanie ręki o wartości jak najbliższej 21 punktów, ale nie przekraczając tej wartości. Gracze rywalizują z krupierem, który również otrzymuje karty. Wygrywa ten, kto ma lepszą rękę, ale nie przekracza 21 punktów.</p>
+            </div>
+        </div>
+        
       </div>
     </main>
   </body>
