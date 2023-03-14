@@ -26,13 +26,14 @@
           <div id="hero-top"class="hero-top">
             <div class="hero-input">
               <h2 class="welcome">Welcome</h2>
-              <p>click on card to begin</p>
+              <p id="info">click on card to begin</p>
             </div>
-            <img onclick="start()"class="gameplay-cards"src="cards.svg" alt="playing cards image">
-            <p>your hand:</p>
+            <img onclick="card()"class="gameplay-cards"src="cards.svg" alt="playing cards image">
+            <p class="your-hand">your hand:</p>
             <div class="hand">
-
+              <p id="hand"></p>
             </div>
+            <button onclick="pass()"class="pass">pass</button>
           </div>
         </div>
         <div id="hero-bottom">
