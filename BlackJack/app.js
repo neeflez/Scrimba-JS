@@ -9,7 +9,7 @@ function rules() {
 let cards = [];
 let sum = 0;
 function card() {
-  let card = Math.floor(Math.random() * 10 + 2);
+  let card = Math.floor(Math.random() * 11 + 1);
   cards.push(card);
   console.log(cards);
   document.getElementById("hand").innerText = cards;
