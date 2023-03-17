@@ -20,7 +20,7 @@ function card() {
   console.log(sum);
   document.getElementById("sum").innerText= sum;
   if (sum === 21) {
-    document.getElementById("info").innerText = "You've won!";
+    document.getElementById("info").innerText = "You won!";
     console.log("wygrales");
     cards = [];
     sum = 0;
