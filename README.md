@@ -11,7 +11,7 @@ No installation is required to view the websites.
 Links:
 
 https://neeflez.github.io/Scrimba-JS/Scrimba-Passenger-Counter/index.html </br>
-https://neeflez.github.io/Scrimba-JS/BlackJack/index.html  (still working on)
+https://neeflez.github.io/Scrimba-JS/BlackJack/index.html
 
 **#License**
 
